@@ -1,7 +1,7 @@
 # ping-of-death
 A Ping of Death implementation to crash (very) old Windows 95 machines and similar vulnerable systems.
 
-## How to use
+## How to use (Only Linux, can be easily adapted to other systems)
 ./pod [spoofed_source_ip] [target_ip] [number_of_retries]  
   
 The tool shall send number_of_retries very large packets to the target IP, also attempting to spoof the source IP.  
